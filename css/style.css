@@ -1,0 +1,60 @@
+body {
+    background-color: #e3e3e3;
+    font-family: 'Lora', sans-serif;
+}
+
+/* Barra de navegacion (Navbar) */
+.logo-navbar {
+    height: 85px; 
+    width: auto; 
+    object-fit: contain; 
+}
+.navbar-brand {
+    display: flex; 
+    align-items: center; 
+    height: 55px; 
+    
+}
+
+.navbar{
+    opacity: calc();
+}
+
+/* Cards */
+.card {
+    background-color: #d3d3d3;
+    border-color: #6d6d6d;
+    
+}
+
+.precio {
+    background-color: #d3d3d3;
+}
+
+/* Carrusel */
+.overlay {
+    opacity: 0.5;
+}
+
+.shadow-custom {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+/* nav */
+.nav-cosas{
+    margin-left: 17px;
+    font-size: 17px; 
+}
+
+.icon-redes {
+    font-size: 27px;
+}
+
+.texto-footer {
+    font-size: 15px;
+}
+
+.boton-ordenar {
+    color: white;
+}
