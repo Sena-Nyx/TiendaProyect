@@ -8,35 +8,40 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="/Tienda Instru/tienda/Imagenes/logo.png" alt="" width="50" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+    </header>
+    <br>
 
       <br>
 
@@ -62,23 +67,39 @@
       </div>
       git status
       git add .
-      git commit
-      git puss -u origin Joan 
+      git commit -m ""
+      git push -u origin Joan 
  
-      <footer>
-        <div class="container-fluid bg-secondary ">
-            <div class="row">
-                <div class="col">
-                    <h1>Logo</h1>
-                </div>
-                <div class="col">
-                    <h1>link</h1>
-                </div>
-                <div class="col">
-                    <h1>Redes</h1>
-                </div>
+      <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row text-center">
+    
+            <!-- Logo -->
+    
+            <div class="col-12 col-md-4">
+              <img src="/Tienda Instru/tienda/Imagenes/logo.png" alt="" width="150" height="150">
             </div>
-        </div>
+    
+            <!-- Información de contacto -->
+                
+            <div class="col-12 col-md-4">
+                <h5 class="mb-3"><b>Información de contacto</b></h5>
+                <p class="texto-footer">Ubicación: Calle Ejemplo #123</p>
+                <p class="texto-footer">Teléfono: +123 456 789</p>
+                <p class="texto-footer">Email: contacto@restaurante.com</p>
+            </div>
+    
+            <!-- Redes Sociales y Contacto -->
+            
+            <div class="col-12 col-md-4">
+                <h5 class="mb-3 "><b>Redes Sociales</b></h5>
+                <div class="d-flex flex-column align-items-center">
+                  <a href="#" class="text-white mb-1 icon-redes"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="text-white mb-1 icon-redes"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="text-white icon-redes"><i class="bi bi-whatsapp"></i></a>
+                </div> 
+            </div>
+    
       </footer>
    
 </body>
